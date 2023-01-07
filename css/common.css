@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/***********************
+        基本设置        
+ ***********************/
+body {
+    font-family: 'Microsoft YaHei','Meiryo',sans-serif,'Times New Roman','Arial';
+    width: 75%;
+    margin: 1px auto;
+}
+
+header {
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+p {
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    height: 1.5em;
+    background-color: gray;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: black    ;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+/***********************
+      顶端跨性别旗帜        
+ ***********************/
+.transgender_pride_flag {
+    height: 5px;
+}
+
+.transgender_pride_flag>span {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.blue {
+    width: 100%;
+    height: 100%;
+    background-color: #5bcefa;
+}
+
+.pink {
+    width: 100%;
+    height: 100%;
+    background-color: #f5a9b8;
+}
+
+.white {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+/***********************
+        logo区域   
+ ***********************/
+
+.logo {
+    text-align: center;
+    margin: 5em auto 5em auto;
+}
+
+.logo .avatar {
+    width: 7em;
+    height: 7em;
+}
+
+.logo h1 {
+    font-size: x-large;
+}
+
+.logo h2 {
+    font-size: medium;
+}
+
+/***********************
+         导航栏
+ ***********************/
+
+nav {
+    background-color: gainsboro;
+    height: 3em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+nav ul li{
+    display: inline;   
+    margin: 0 1em; 
+    white-space: nowrap;
+}
+
+nav ul li a{
+    font-size: x-large;
+}
+
+/***********************
+         正文
+ ***********************/
+
+section {
+    padding: 2em 2em 2em 2em;
+    background-color: ghostwhite;
+}
